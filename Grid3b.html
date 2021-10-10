@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>Bootstrap and The Grids: Grid One</title>
+    <title>Bootstrap and The Grids: Grid Three</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,13 +31,13 @@
                     <a class="nav-link" href="/index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Grid1.html">Grid 1</a>
+                    <a class="nav-link" href="Grid1.html">Grid 1</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Grid2.html">Grid 2</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Grid3.html">Grid 3</a>
+                    <a class="nav-link active" aria-current="page" href="Grid3.html">Grid 3</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Grid4.html">Grid 4</a>
@@ -64,23 +64,53 @@
 
     <main class="flex-shrink-0">
        <div class="container h-100 minHeight">
-           <div class="row row-cols-1 row-cols-md-2 gy-2 h-100">
-               <div class="col">
-                   <div class="bg-dark text-light h-100 p-2">
-                     <h1>COL ONE</h1>  
-                     <p>Lorem ipsum dolor sit amet. Aut iste numquam rem reprehenderit voluptas nam necessitatibus esse. Est dicta accusamus non nihil unde aut tempora enim. Non voluptatibus doloribus qui reiciendis culpa est quis quidem At alias rerum ut accusantium iste sit ipsa quia in sapiente! </p><p>Qui aperiam velit ut voluptates minima et suscipit eius eos enim iste qui voluptas accusantium sit quia tempore et possimus officiis. Rem saepe recusandae et ullam dolore et eligendi distinctio ut omnis consequatur et delectus quia et asperiores deleniti. Est voluptas dicta sit iure facilis sit velit ratione ut aspernatur officia eum perspiciatis velit a pariatur laudantium! </p><p>Ut debitis nemo et distinctio rerum ut eligendi modi sed quasi repudiandae et officiis maiores. Hic modi rerum id fugit minima aut beatae voluptates. </p>
-
-                   </div>
+        <ul class="nav nav-pills mb-1">
+            <li class="nav-item">
+                <a href="Grid3.html" class="nav-link">Grid 3</a>
+            </li>
+            <li class="nav-item">
+                <a href="Grid3b.html" class="nav-link active" aria-current="page">Grid 3b</a>
+            </li>
+        </ul>
+            <div class="row h-100">
+               <!-- LEFT COLUMN -->
+               <div class="col-7">
+                    <div class="bg-secondary text-light p-2 h-100">
+                <h1>Article Title</h1>
+                <p>Lorem ipsum dolor sit amet. Quo magnam consequatur ut delectus natus et debitis autem non consequatur reiciendis sit inventore asperiores eos quia quos id necessitatibus reiciendis.  </p>
+                <p>Lorem ipsum dolor sit amet. Quo magnam consequatur ut delectus natus et debitis autem non consequatur reiciendis sit inventore asperiores eos quia quos id necessitatibus reiciendis.  </p>
+                <p>Lorem ipsum dolor sit amet. Quo magnam consequatur ut delectus natus et debitis autem non consequatur reiciendis sit inventore asperiores eos quia quos id necessitatibus reiciendis.  </p>
+        
+            </div>
                </div>
-               <div class="col">
-                   <div class="bg-secondary text-light h-100 p-2">
-                        <h1>COL TWO</h1>
-                   </div>
+               <!-- RIGHT COLUMN -->
+               <div class="col-5">
+                <!-- RIGHT TOP COLUMN -->
+                    <div class="bg-secondary text-light p-2 ">
+                     <form class="d-flex">
+                         <input type="search" class="form-control me-2" placeholder="search" aria-label="search">
+                         <button class="btn btn-outline-light" type="submit">Search</button>
+                     </form>
+                    </div>
+                <!-- RIGHT BOTTOM COLUMN -->
+                    <div class="bg-dark text-light mt-2 p-2">
+                       <h5>More Articles</h5>
+                       <ul class="nav flex-column">
+                           <li class="nav-item">
+                               <a href="#" class="nav-link">Article One</a>
+                           </li>
+                           <li class="nav-item">
+                               <a href="#" class="nav-link">Article Two</a>
+                           </li>
+                           <li class="nav-item">
+                               <a href="#" class="nav-link">Article Three</a>
+                           </li>
+                       </ul>
+                     </div>
+                    </div>
                </div>
            </div>
-       </div>
     </main>
-    
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
         <div class="container-fluid text-center">
             <span class="text-white">Boostrap And The Grids by Austin Bruso</span>
